@@ -746,15 +746,13 @@ header .conteiner {
 
 .filters-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 50px;
-    
-    
+    gap: 8px;
+    margin-bottom: 50px;  
 }
 
-.filters-item {
-    margin-right: 8px;
-}
+.filters-item {}
 
 .filters-btn {
     padding: 6px 22px 6px 22px;

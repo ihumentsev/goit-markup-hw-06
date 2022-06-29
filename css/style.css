@@ -67,9 +67,11 @@ header .conteiner {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin-right: auto;
 }
 
 .logo {
+    margin-right: 93px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -84,7 +86,6 @@ header .conteiner {
 
 .nav-list {
     display: flex;
-    margin-left: 93px;
     padding: 0%;
    
 }
@@ -139,7 +140,7 @@ header .conteiner {
 
 
 .header-contact {
-    margin-left: auto;
+   
     
 }
 
@@ -888,6 +889,8 @@ footer {
 footer .conteiner {
     display: flex;
     flex-wrap: wrap;
+    
+
 }
 
 .logo-footer {
@@ -933,6 +936,7 @@ address {
 
 .social-footer {
     padding-top: 12px;
+    margin-right: auto;
 }
 
 .social-footer-list {
@@ -973,11 +977,13 @@ address {
 }
 
 .footer-form-conteiner {
+    display: block;
     padding-top: 12px;
-    margin-left: 93px;
+    
 }
 
 .input-title {
+    display: block;
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
@@ -989,6 +995,7 @@ address {
 
 .footer-form {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .footer-input {

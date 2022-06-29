@@ -375,7 +375,11 @@ header .conteiner {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hover:hover .icon-form {
+.form-input:hover + .icon-form {
+    fill: var(--accent-color);
+}
+
+.form-input:focus + .icon-form {
     fill: var(--accent-color);
 }
 
